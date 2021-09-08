@@ -1,0 +1,15 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/js/image.js": "/js/image.js",
+    "/js/business.js": "/js/business.js",
+    "/js/settings.js": "/js/settings.js",
+    "/js/stores.js": "/js/stores.js",
+    "/js/areas.js": "/js/areas.js",
+    "/js/admin/areas.js": "/js/admin/areas.js",
+    "/js/product.js": "/js/product.js",
+    "/js/product-update.js": "/js/product-update.js",
+    "/js/discount.js": "/js/discount.js",
+    "/js/customer.js": "/js/customer.js",
+    "/js/notifications.js": "/js/notifications.js",
+    "/css/app.css": "/css/app.css"
+}

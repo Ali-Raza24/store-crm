@@ -1,0 +1,33 @@
+<?php
+
+
+namespace App\Constants;
+
+
+interface IStatus
+{
+    const ACTIVE = 1;
+    const DISABLE = 2;
+    const BUSINESS_ACTIVE = 3;
+    const BUSINESS_INACTIVE = 4;
+    const BUSINESS_PENDING = 5;
+    const BUSINESS_SUSPENDED = 6;
+    const USER_ACTIVE = 8;
+    const USER_DISABLED = 9;
+
+    const DISCOUNT_ACTIVE = 10;
+    const DISCOUNT_DISABLE = 11;
+    const DISCOUNT_EXPIRED = 12;
+    const DISCOUNT_CONSUMED = 13;
+
+    CONST ORDER_PLACED = 11;
+    CONST PROCESSING = 12;
+    CONST FULFILLED = 13;
+    CONST OUT_FOR_DELIVERY = 14;
+    CONST DELIVERED = 15;
+    CONST RETURNED = 16;
+    CONST CANCELLED = 17;
+    CONST PAYMENT_PENDING = 18;
+    CONST PAYMENT_PAID = 19;
+    CONST PAYMENT_REFUNDED = 20;
+}

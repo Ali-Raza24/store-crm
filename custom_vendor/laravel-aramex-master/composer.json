@@ -1,0 +1,36 @@
+{
+    "name": "extremesa/aramex",
+    "description": "Integrate Laravel project with Aramex.",
+    "keywords": [
+    ],
+    "authors": [
+        {
+            "name": "Ismail Ashour",
+            "email": "iashour@extreme.sa"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ExtremeSa\\Aramex\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ExtremeSa\\Aramex\\AramexServiceProvider"
+            ],
+            "aliases": {
+                "Aramex": "ExtremeSa\\Aramex\\Facades\\Aramex"
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
